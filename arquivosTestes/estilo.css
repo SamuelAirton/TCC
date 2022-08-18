@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Work+Sans:wght@600&display=swap');
+
+* {
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open Sans','sans-serif';
+}
+
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    background-color: black;
+    height: 100px;
+}
+#menu-h ul li {
+    display: inline;
+    
+}
+#menu-h ul li a {
+    color: aliceblue;
+    display: inline;
+    padding: 20px;
+    text-decoration: none ;
+    transition: background .3s;
+
+}
+#menu-h ul li a:hover {
+    background-color: rgba(223, 177, 26, 0.3);
+}
